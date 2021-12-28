@@ -11,7 +11,7 @@ video = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 import telebot
 
-bot = telebot.TeleBot("5035305575:AAF0CZbYK-pOETL1mGU0x8TX1U4TEaT4R0Q") # You can set parse_mode by default. HTML or MARKDOWN
+bot = telebot.TeleBot("xxxxxxxxxxxxxxxxxxxxxxxxxxxx") # You can set parse_mode by default. HTML or MARKDOWN
 i = 0
 while True:
   ret, frame = video.read()
